@@ -7,4 +7,4 @@ app = Flask(__name__)
 @app.route("/")
 
 def index():
-    return "Congratulations, SSS web app!"
+    return "<p>Congratulations, SSS web app!</p>"
